@@ -8,4 +8,4 @@ Feel free to use this configuration for your own Neovim install, but please note
 That being said, if anyone would like to make suggestions as to how I can improve this configuration, feel free to do so by submitting an issue or pull request. I don't plan on merging every change I see, but I'd be happy to see your suggestions and learn from my potential mistakes!
 
 ## Installation
-Clone this repository into your Neovim configuration folder (for me, that's `~/.config/nvim/`). Then, open the `init.lua` file and type `:source`. Everything should sort itself out automatically.
+Clone this repository into your Neovim configuration folder (for me, that's `~/.config/nvim/`). Then, open the `init.lua` file with Neovim and type `:source`. Everything should sort itself out automatically.
