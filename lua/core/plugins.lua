@@ -13,11 +13,24 @@ local packer_bootstrap = ensure_packer()
 
 return require('packer').startup(function(use)
   use 'wbthomason/packer.nvim'
-  use 'ellisonleao/gruvbox.nvim'
   use 'nvim-tree/nvim-tree.lua'
   use 'nvim-tree/nvim-web-devicons'
   use 'nvim-lualine/lualine.nvim'
   use 'nvim-treesitter/nvim-treesitter'
+
+  -- themes
+  use 'ellisonleao/gruvbox.nvim'
+  use 'folke/tokyonight.nvim'
+  use({
+    "folke/styler.nvim",
+    config = function()
+        require("styler").setup({
+            themes = {
+                lua = { colorscheme = "gruvbox" },
+            },
+        })
+    end,
+  })
 
   -- completion
   use 'hrsh7th/nvim-cmp'
@@ -25,6 +38,9 @@ return require('packer').startup(function(use)
   use 'L3MON4D3/LuaSnip'
   use "saadparwaiz1/cmp_luasnip"
   use "rafamadriz/friendly-snippets"
+
+  -- highlight colour codes
+  use 'brenoprata10/nvim-highlight-colors'
 
   use {
     "williamboman/mason.nvim",
