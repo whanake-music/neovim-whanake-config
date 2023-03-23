@@ -18,15 +18,35 @@ return require('packer').startup(function(use)
   use 'nvim-lualine/lualine.nvim'
   use 'nvim-treesitter/nvim-treesitter'
 
-  -- themes
+  -- themes supported by 'styler'
   use 'ellisonleao/gruvbox.nvim'
   use 'folke/tokyonight.nvim'
+  use 'rebelot/kanagawa.nvim'
+  use 'EdenEast/nightfox.nvim'
+
+  -- themes NOT supported by 'styler'
+  use 'navarasu/onedark.nvim'
+  use 'jaredgorski/spacecamp'
+  use 'gosukiwi/vim-atom-dark'
+  use 'tomasr/molokai'
+  use 'NLKNguyen/papercolor-theme'
+  use 'cocopon/iceberg.vim'
+  use 'nanotech/jellybeans.vim'
+  use 'ayu-theme/ayu-vim'
+  use 'w0ng/vim-hybrid'
+  use 'rafamadriz/neon'
   use({
     "folke/styler.nvim",
     config = function()
         require("styler").setup({
             themes = {
                 lua = { colorscheme = "gruvbox" },
+                cpp = { colorscheme = "kanagawa" },
+                python = { colorscheme = "kanagawa" },
+                html = { colorscheme = "gruvbox" },
+                xml = { colorscheme = "nightfox" },
+                css = { colorscheme = "nightfox" },
+                javascript = { colorscheme = "duskfox" },
             },
         })
     end,

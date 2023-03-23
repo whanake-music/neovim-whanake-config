@@ -79,6 +79,11 @@ _G.packer_plugins = {
     path = "/home/whanake/.local/share/nvim/site/pack/packer/start/LuaSnip",
     url = "https://github.com/L3MON4D3/LuaSnip"
   },
+  ["ayu-vim"] = {
+    loaded = true,
+    path = "/home/whanake/.local/share/nvim/site/pack/packer/start/ayu-vim",
+    url = "https://github.com/ayu-theme/ayu-vim"
+  },
   ["cmp-nvim-lsp"] = {
     loaded = true,
     path = "/home/whanake/.local/share/nvim/site/pack/packer/start/cmp-nvim-lsp",
@@ -99,6 +104,21 @@ _G.packer_plugins = {
     path = "/home/whanake/.local/share/nvim/site/pack/packer/start/gruvbox.nvim",
     url = "https://github.com/ellisonleao/gruvbox.nvim"
   },
+  ["iceberg.vim"] = {
+    loaded = true,
+    path = "/home/whanake/.local/share/nvim/site/pack/packer/start/iceberg.vim",
+    url = "https://github.com/cocopon/iceberg.vim"
+  },
+  ["jellybeans.vim"] = {
+    loaded = true,
+    path = "/home/whanake/.local/share/nvim/site/pack/packer/start/jellybeans.vim",
+    url = "https://github.com/nanotech/jellybeans.vim"
+  },
+  ["kanagawa.nvim"] = {
+    loaded = true,
+    path = "/home/whanake/.local/share/nvim/site/pack/packer/start/kanagawa.nvim",
+    url = "https://github.com/rebelot/kanagawa.nvim"
+  },
   ["lualine.nvim"] = {
     loaded = true,
     path = "/home/whanake/.local/share/nvim/site/pack/packer/start/lualine.nvim",
@@ -113,6 +133,21 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/whanake/.local/share/nvim/site/pack/packer/start/mason.nvim",
     url = "https://github.com/williamboman/mason.nvim"
+  },
+  molokai = {
+    loaded = true,
+    path = "/home/whanake/.local/share/nvim/site/pack/packer/start/molokai",
+    url = "https://github.com/tomasr/molokai"
+  },
+  neon = {
+    loaded = true,
+    path = "/home/whanake/.local/share/nvim/site/pack/packer/start/neon",
+    url = "https://github.com/rafamadriz/neon"
+  },
+  ["nightfox.nvim"] = {
+    loaded = true,
+    path = "/home/whanake/.local/share/nvim/site/pack/packer/start/nightfox.nvim",
+    url = "https://github.com/EdenEast/nightfox.nvim"
   },
   ["nvim-cmp"] = {
     loaded = true,
@@ -144,18 +179,33 @@ _G.packer_plugins = {
     path = "/home/whanake/.local/share/nvim/site/pack/packer/start/nvim-web-devicons",
     url = "https://github.com/nvim-tree/nvim-web-devicons"
   },
+  ["onedark.nvim"] = {
+    loaded = true,
+    path = "/home/whanake/.local/share/nvim/site/pack/packer/start/onedark.nvim",
+    url = "https://github.com/navarasu/onedark.nvim"
+  },
   ["packer.nvim"] = {
     loaded = true,
     path = "/home/whanake/.local/share/nvim/site/pack/packer/start/packer.nvim",
     url = "https://github.com/wbthomason/packer.nvim"
+  },
+  ["papercolor-theme"] = {
+    loaded = true,
+    path = "/home/whanake/.local/share/nvim/site/pack/packer/start/papercolor-theme",
+    url = "https://github.com/NLKNguyen/papercolor-theme"
   },
   ["plenary.nvim"] = {
     loaded = true,
     path = "/home/whanake/.local/share/nvim/site/pack/packer/start/plenary.nvim",
     url = "https://github.com/nvim-lua/plenary.nvim"
   },
+  spacecamp = {
+    loaded = true,
+    path = "/home/whanake/.local/share/nvim/site/pack/packer/start/spacecamp",
+    url = "https://github.com/jaredgorski/spacecamp"
+  },
   ["styler.nvim"] = {
-    config = { "\27LJ\2\np\0\0\5\0\b\0\v6\0\0\0'\2\1\0B\0\2\0029\0\2\0005\2\6\0005\3\4\0005\4\3\0=\4\5\3=\3\a\2B\0\2\1K\0\1\0\vthemes\1\0\0\blua\1\0\0\1\0\1\16colorscheme\fgruvbox\nsetup\vstyler\frequire\0" },
+    config = { "\27LJ\2\n—\2\0\0\5\0\20\0\0236\0\0\0'\2\1\0B\0\2\0029\0\2\0005\2\18\0005\3\4\0005\4\3\0=\4\5\0035\4\6\0=\4\a\0035\4\b\0=\4\t\0035\4\n\0=\4\v\0035\4\f\0=\4\r\0035\4\14\0=\4\15\0035\4\16\0=\4\17\3=\3\19\2B\0\2\1K\0\1\0\vthemes\1\0\0\15javascript\1\0\1\16colorscheme\fduskfox\bcss\1\0\1\16colorscheme\rnightfox\bxml\1\0\1\16colorscheme\rnightfox\thtml\1\0\1\16colorscheme\fgruvbox\vpython\1\0\1\16colorscheme\rkanagawa\bcpp\1\0\1\16colorscheme\rkanagawa\blua\1\0\0\1\0\1\16colorscheme\fgruvbox\nsetup\vstyler\frequire\0" },
     loaded = true,
     path = "/home/whanake/.local/share/nvim/site/pack/packer/start/styler.nvim",
     url = "https://github.com/folke/styler.nvim"
@@ -169,13 +219,23 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/whanake/.local/share/nvim/site/pack/packer/start/tokyonight.nvim",
     url = "https://github.com/folke/tokyonight.nvim"
+  },
+  ["vim-atom-dark"] = {
+    loaded = true,
+    path = "/home/whanake/.local/share/nvim/site/pack/packer/start/vim-atom-dark",
+    url = "https://github.com/gosukiwi/vim-atom-dark"
+  },
+  ["vim-hybrid"] = {
+    loaded = true,
+    path = "/home/whanake/.local/share/nvim/site/pack/packer/start/vim-hybrid",
+    url = "https://github.com/w0ng/vim-hybrid"
   }
 }
 
 time([[Defining packer_plugins]], false)
 -- Config for: styler.nvim
 time([[Config for styler.nvim]], true)
-try_loadstring("\27LJ\2\np\0\0\5\0\b\0\v6\0\0\0'\2\1\0B\0\2\0029\0\2\0005\2\6\0005\3\4\0005\4\3\0=\4\5\3=\3\a\2B\0\2\1K\0\1\0\vthemes\1\0\0\blua\1\0\0\1\0\1\16colorscheme\fgruvbox\nsetup\vstyler\frequire\0", "config", "styler.nvim")
+try_loadstring("\27LJ\2\n—\2\0\0\5\0\20\0\0236\0\0\0'\2\1\0B\0\2\0029\0\2\0005\2\18\0005\3\4\0005\4\3\0=\4\5\0035\4\6\0=\4\a\0035\4\b\0=\4\t\0035\4\n\0=\4\v\0035\4\f\0=\4\r\0035\4\14\0=\4\15\0035\4\16\0=\4\17\3=\3\19\2B\0\2\1K\0\1\0\vthemes\1\0\0\15javascript\1\0\1\16colorscheme\fduskfox\bcss\1\0\1\16colorscheme\rnightfox\bxml\1\0\1\16colorscheme\rnightfox\thtml\1\0\1\16colorscheme\fgruvbox\vpython\1\0\1\16colorscheme\rkanagawa\bcpp\1\0\1\16colorscheme\rkanagawa\blua\1\0\0\1\0\1\16colorscheme\fgruvbox\nsetup\vstyler\frequire\0", "config", "styler.nvim")
 time([[Config for styler.nvim]], false)
 
 _G._packer.inside_compile = false
